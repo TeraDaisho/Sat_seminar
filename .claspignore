@@ -1,0 +1,11 @@
+node_modules/
+dist/
+src/
+public/
+package.json
+package-lock.json
+vite.config.ts
+tsconfig.json
+tsconfig.node.json
+local_server*
+.git/
