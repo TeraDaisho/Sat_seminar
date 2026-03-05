@@ -18,7 +18,7 @@ function App() {
     const fetchLectures = async () => {
       try {
         // You must deploy GAS and replace this ID if changed.
-        const GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbyM1TeOOfBa5sjblOz7M-v_JtYoai4Y3L2t7nInn83bZDVUbb4kU1pDo9FdMgWojcpr/exec';
+        const GAS_WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxu1tSfOspb1dr8eUBGNiPU7dVmG7v_VAZItTZfen0ismJOy0USBe9AFZ7KCFnTYlbr/exec';
         const response = await fetch(GAS_WEBAPP_URL);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
